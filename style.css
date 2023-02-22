@@ -1,0 +1,75 @@
+
+/*=======================Import font===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+
+/*=======================Reset css===========================*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*=======================General===========================*/
+body {
+    background: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+/*=======================Navbar===========================*/
+header {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*=======================Section header===========================*/
+.header-container {
+    margin: 40px 30px;
+    display: flex;
+}
+
+.header-right {
+    min-width: 50%;
+}
+.header-right img {
+    width: 100%;
+}
+
+.header-left {
+    min-width: 50%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 1.5rem;
+    color: blueviolet;
+    margin: 10px 0;
+}
+
+.header-left p {
+    text-align: justify;
+}
