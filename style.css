@@ -10,15 +10,21 @@
     margin: 0;
 }
 /*=======================General===========================*/
+:root {
+    --color1:  rgb(78, 43, 235); 
+    --color2:  rgb(46, 46, 46); 
+    --color3:  white; 
+}
+
 body {
-    background: black;
-    color: white;
+    background: var(--color2);
+    color: var(--color3);
     font-family: 'Inter', sans-serif;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: var(--color3);
 }
 
 li {
@@ -64,12 +70,55 @@ header {
 h1 {
     font-size: 4rem;
 }
-h3 {
+.header-left h3 {
     font-size: 1.5rem;
-    color: blueviolet;
+    color: var(--color1);
     margin: 10px 0;
 }
 
 .header-left p {
     text-align: justify;
+}
+/*=======================Section infos===========================*/
+.infos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+}
+
+.infos-left h3{
+    white-space: nowrap;
+    padding:  10px 0;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+}
+.btn-container button {
+    background: var(--color1);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 7px 0;
+    color: var(--color3);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.infos-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-container img {
+    width: 20%;
 }
