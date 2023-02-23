@@ -54,6 +54,7 @@ body {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
+    margin: 40px 30px;
 }
 
 .header-right {
